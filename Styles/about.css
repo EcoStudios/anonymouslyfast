@@ -42,3 +42,35 @@
 	width: 45%;
 	padding-left: 15%;
 }
+
+.about_title {
+	font-family: 'Roboto', sans-serif;
+	color: slategray;
+	display: flex;
+	justify-content: center;
+}
+
+.about_para {
+	font-family: 'Roboto', sans-serif;
+	color: slategray;
+	display: flex;
+	justify-content: center;
+	font-size: large;
+}
+
+#about_link {
+	color: blue;
+}
+
+#about_link:hover {
+	color: lightblue;
+}
+
+#about_link:active {
+	color: rgb(10, 73, 94);
+}
+
+.space {
+	width: 100%;
+	height: 5%;
+}
