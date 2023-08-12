@@ -42,20 +42,3 @@
 	width: 45%;
 	padding-left: 15%;
 }
-
-
-
-.EcoProjects {
-	font-family: 'Roboto', sans-serif;
-	display: flex;
-	justify-content: center;
-}
-
-#EcoProjects_Logo {
-	border-radius: 35%;
-	size: 10%;
-}
-
-#EcoProjects_About {
-	color: rgba(112, 128, 144, 0.848);
-}
