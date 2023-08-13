@@ -12,14 +12,19 @@
 	justify-content: center;
 }
 
-#EcoProjects_Logo {
-	border-radius: 50%;
-	width: 10%;
+.EP_IMG_Container {
+	width: 5%;
 	height: auto;
 }
 
-#EcoProjects_About {
-	color: rgba(112, 128, 144, 0.848);
+#EcoProjects_Logo {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+
+#EcoProjects_Logo:hover {
+	border-radius: 30%;
 }
 
 .EcoProjects_title {
@@ -52,4 +57,5 @@
 	justify-content: center;
 	font-size: large;
 	padding-bottom: 1%;
+	padding-top: 10%;
 }
