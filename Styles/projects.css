@@ -13,10 +13,43 @@
 }
 
 #EcoProjects_Logo {
-	border-radius: 35%;
-	size: 10%;
+	border-radius: 50%;
+	width: 10%;
+	height: auto;
 }
 
 #EcoProjects_About {
 	color: rgba(112, 128, 144, 0.848);
+}
+
+.EcoProjects_title {
+	font-family: 'Roboto', sans-serif;
+	color: slategray;
+	display: flex;
+	justify-content: center;
+}
+
+.EcoProjects_about {
+	font-family: 'Roboto', sans-serif;
+	color: slategray;
+	display: flex;
+	justify-content: center;
+	font-size: large;
+}
+
+.EcoProjects_List_title {
+	font-family: 'Roboto', sans-serif;
+	color: slategray;
+	display: flex;
+	justify-content: center;
+	padding-top: 1%;
+}
+
+.EcoProjects_List {
+	font-family: 'Roboto', sans-serif;
+	color: slategray;
+	display: flex;
+	justify-content: center;
+	font-size: large;
+	padding-bottom: 1%;
 }
