@@ -3,3 +3,30 @@
 	line-height: 2%;
 	line-break: 25%;
 }
+
+.comm_title {
+	font-family: 'Roboto', sans-serif;
+	color: slategray;
+	display: flex;
+	justify-content: center;
+}
+
+.comm_main {
+	font-family: 'Roboto', sans-serif;
+	color: slategray;
+	display: flex;
+	justify-content: center;
+	font-size: large;
+}
+
+#link {
+	color: darkslategray;
+}
+
+#link:hover {
+	background-color: rgb(98, 98, 98);
+}
+
+#link:active {
+	background-color: rgb(16, 15, 15);
+}

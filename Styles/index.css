@@ -4,7 +4,26 @@
 	line-break: 25%;
 }
 
+#link {
+	color: darkslategray;
+}
 
+#link:hover {
+	background-color: rgb(98, 98, 98);
+}
+
+#link:active {
+	background-color: rgb(16, 15, 15);
+}
+
+.main {
+	padding-top: 1%;
+	font-family: 'Roboto', sans-serif;
+	color: slategray;
+	display: flex;
+	justify-content: center;
+	font-size: large
+}
 
 
 
