@@ -162,10 +162,11 @@ body {
 	#mobile_navbar {
 		visibility: hidden;
 		font-family: 'Roboto', sans-serif;
-		height: auto;
+		height: 0px;
 		display: flex;
 		margin: 5px;
 		width: auto;
+		width: 0px;
 	}
 
 	#mobile_navbar ul li {
