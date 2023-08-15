@@ -3,26 +3,41 @@
 
 <head>
 	<title>About Me - AnonymouslyFast</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../Styles/main.css">
 	<link rel="stylesheet" href="../Styles/about.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<script src="../js/mobile.js"></script>
 </head>
 
+<style>
+	.material-symbols-outlined {
+		font-variation-settings:
+		'FILL' 0,
+		'wght' 400,
+		'GRAD' 0,
+		'opsz' 48
+	}
+</style>
+
+<div class="mobile_top">
+	<span class="material-symbols-outlined" id="mobile_menu" onclick="menuClick()">menu</span>
+	<div id="mobile_navbar">
+		<ul>
+			<li><i class="material-symbols-outlined" style="font-size: small !important; color: rgba(255, 255, 255, 0.904) !important">home</i><a id="hideLink" href="../index.html" style="color: slategray; font-size: x-small;">Home</a></li>
+			<li><i class="material-symbols-outlined" style="font-size: x-small !important; color: rgba(255, 255, 255, 0.904) !important">work</i><a id="hideLink" href="Projects.html" style="color: slategray; font-size: x-small;">Projects</a></li>
+			<li id="selected"><i class="material-symbols-outlined" style="font-size: x-small !important; color: rgba(255, 255, 255, 0.904) !important">help</i><a id="hideLink" href="About.html" style="color: slategray; font-size: x-small;">About Me</a></li>
+			<li><i class="material-symbols-outlined" style="font-size: x-small !important; color: rgba(255, 255, 255, 0.904) !important">sell</i><a id="hideLink" href="Commissions.html" style="color: slategray; font-size: x-small;">Commissions</a></li>
+		</ul>
+	</div>
+</div>
 
 <body>
 	<div class="header">
 		<h1 class="title">About Me</h1>
 	</div>
 
-	<style>
-		.material-symbols-outlined {
-			font-variation-settings:
-			'FILL' 0,
-			'wght' 400,
-			'GRAD' 0,
-			'opsz' 48
-		}
-	</style>
+	<hr id="mobile_line">
 
 <div class="Symbol_Pages">
 	<ul>

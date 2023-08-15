@@ -9,7 +9,7 @@ body {
 }
 
 .logo {
-  color: slategrey;
+	color: slategrey;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	display: flex;
@@ -27,21 +27,21 @@ body {
 }
 
 .header {
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
 }
 
 .top {
-  background-color: transparent;
-  display: flex;
-  position: sticky;
-  text-decoration: none;
-  justify-content: space-between;
-  width: 100%;
-  height: 100px;
+	background-color: transparent;
+	display: flex;
+	position: sticky;
+	text-decoration: none;
+	justify-content: space-between;	
+	width: 100%;
+	height: 100px;
 }
 
 
@@ -99,5 +99,110 @@ body {
 	padding-left: 15%;
 }
 
+#mobile_navbar {
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
+}
 
+#mobile_line {
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
+}
+
+#mobile_menu {
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
+}
+
+/* Mobile CSS */ 
+
+@media only screen and (max-width: 420px) {
+
+	.Symbol_Pages {
+		visibility: collapse;
+		width: 0px;
+		height: 0px;
+	}
+
+	#line {
+		visibility: hidden;
+	}
+
+	#mobile_line {
+		visibility: visible;
+		color: slategray;
+		width: 80vw;
+		padding-left: 15vw;
+	}
+
+	.title {
+		font-size: xx-large;
+		padding-top: 5vw;
+	}
+	
+	#mobile_menu {
+		visibility: visible;
+		color: slategray !important;
+		font-size: large !important;
+		width: auto;
+		height: auto;
+	}
+
+	#mobile_menu:active {
+		background-color: rgb(66, 66, 66);
+		border-radius: 25px;
+		height: 20px;
+	}
+
+
+
+	#mobile_navbar {
+		visibility: hidden;
+		font-family: 'Roboto', sans-serif;
+		height: auto;
+		display: flex;
+		margin: 5px;
+		width: auto;
+	}
+
+	#mobile_navbar ul li {
+		display: inline;
+		list-style: none;
+		transition: background-color 200ms ease-in-out;
+		border-radius: 25px;
+		height: 20px;
+	}
+
+	#mobile_navbar ul li i {
+		color: slategrey;
+	}
+	
+	
+	#mobile_navbar ul li:active {
+		background-color: rgb(66, 66, 66);
+		border-radius: 25px;
+		height: 20px;
+	}
+	
+	
+	#selected {
+		background-color: rgb(66, 66, 66);
+		border-radius: 25px;
+		height: 20px;
+		
+	
+	}
+
+	.mobile_top {
+		display: flex;
+		justify-content: left;
+	}
+	
+
+
+
+}
 
