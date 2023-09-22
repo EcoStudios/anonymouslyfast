@@ -1,0 +1,28 @@
+html {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #2f3136 !important;
+}
+
+
+
+.footer {
+    margin: auto;
+    width: 100vw;
+    height: 80px;
+    padding: 5px 50px 0px 50px;
+    border-top: solid 1px #808080;
+    margin-top: 20px;
+    justify-content: center;
+    color: slategray;
+    font-size: 7pt;
+
+}
+
+.body {
+    width: 100vw;
+    height: auto;
+}
