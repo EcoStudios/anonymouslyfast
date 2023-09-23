@@ -1,0 +1,14 @@
+.visible {
+    visibility: visible;
+    width: auto;
+    height: auto;
+    margin: auto;
+    content-visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+    height: unset;
+    width: unset;
+    content-visibility: hidden;
+}
