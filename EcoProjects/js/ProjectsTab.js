@@ -1,4 +1,4 @@
-function dopp() {
+function removeTabs() {
     if (document.getElementById("mcTab")?.classList.contains("active")) {
         document.getElementById("mcTab")?.classList.remove("active");
         document.getElementById("MCbody")?.classList.remove("visible");
@@ -18,17 +18,18 @@ function dopp() {
 }
 
 function openProjectTab(name) {
+    removeTabs();
     if (name == "minecraft") {
+        document.getElementById("MCbody")?.classList.remove("hidden");
         document.getElementById("mcTab")?.classList.add("active");
         document.getElementById("MCbody")?.classList.add("visible");
-        dopp();
     } else if (name == "game") {
+        document.getElementById("Gamebody")?.classList.remove("hidden");
         document.getElementById("gameTab")?.classList.add("active");
         document.getElementById("Gamebody")?.classList.add("visible");
-        dopp();
     } else if (name == "websites") {
+        document.getElementById("Webbody")?.classList.remove("hidden");
         document.getElementById("websiteTab")?.classList.add("active");
         document.getElementById("Webbody")?.classList.add("visible");
-        dopp();
     }
   }

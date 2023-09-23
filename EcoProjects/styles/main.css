@@ -5,6 +5,7 @@ html {
 
 body {
     background-color: #2f3136 !important;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -23,6 +24,7 @@ body {
 }
 
 .body {
+    font-family: 'Open Sans', sans-serif;
     width: 100vw;
     height: auto;
 }
