@@ -5,6 +5,7 @@ html {
 
 body {
     overflow-x: hidden;
+    flex-direction: column;
     width: 100vw;
     height: auto; 
     background-color: #2f3136 !important;
@@ -22,7 +23,13 @@ body {
     justify-content: center;
     color: slategray;
     font-size: 10pt;
+}
 
+footer {
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
 }
 
 .body {
