@@ -23,6 +23,8 @@ body {
     justify-content: center;
     color: slategray;
     font-size: 10pt;
+    align-content: center;
+    display: inline-flex;
 }
 
 footer {
